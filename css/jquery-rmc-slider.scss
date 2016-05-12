@@ -1,0 +1,69 @@
+﻿%transform-performance {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -ms-perspective: 1000px;
+    will-change: transform, opacity;
+}
+
+.rmc-slider {
+    width: 100%;
+    height: 558px;
+    overflow: hidden;
+    position: relative;
+
+    .rmc-slides {
+        .rmc-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            @extend %transform-performance;
+
+            .rmc-layer {
+                position: absolute;
+            }
+        }
+    }
+
+    .rmc-dots {
+        width: 100%;
+        position: absolute;
+        bottom: 18px;
+        left: 0;
+        text-align: center;
+
+        .rmc-dot {
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            border-radius: 100%;
+            background-color: #fff;
+            margin-left: 4px;
+            cursor: pointer;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &.active {
+                background-color: transparent;
+                border: 3px solid #fff;
+            }
+        }
+    }
+
+    .rmc-layer{
+        @extend %transform-performance;
+
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+    }
+}
