@@ -138,19 +138,19 @@ Required if using jQuery Animation: jQuery Easing (By gdsmith, https://github.co
 
 ## Changelog
 
-## 0.5
+### 0.5
 - Fixed mobile settings 
 
-## 0.4
+### 0.4
 - Fixed jQuery Animations
 
-## 0.3
+### 0.3
 - Fixed layers' bugs on change slide
 
-## 0.2
+### 0.2
 - Fixed the transitions performance
 
-## 0.1
+### 0.1
 - The build with basic resources
 
 
