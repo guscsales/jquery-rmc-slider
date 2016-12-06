@@ -7,6 +7,9 @@ Simple slider builded on jQuery for your website :)
 git clone https://github.com/hebsix/jquery-rmc-slider.git
 ```
 
+## Demo
+[http://www.cots.adv.br/](http://www.cots.adv.br/)
+
 ## Usage
 
 ```html
