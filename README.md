@@ -9,6 +9,8 @@ git clone https://github.com/hebsix/jquery-rmc-slider.git
 
 ## Demo
 [http://www.cots.adv.br/](http://www.cots.adv.br/)
+[http://www.bhhscalifornia.com/](http://www.bhhscalifornia.com/)
+
 
 ## Usage
 
